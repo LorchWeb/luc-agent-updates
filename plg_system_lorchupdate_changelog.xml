@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+    <changelog>
+        <element>lorchupdate</element>
+        <type>plugin</type>
+        <version>1.0.47</version>
+        <fix>
+            <item>Agent-Selbstupdates verwenden jetzt Joomlas reguläre Erweiterungs-Updateerkennung und das Update-Modell von com_installer.</item>
+            <item>Eigene Feed-, XML-, ZIP-, Entpack- und Installationslogik wurde aus dem Agent-Selbstupdate entfernt.</item>
+            <item>Die signiert angeforderte Zielversion wird gegen den von Joomla erzeugten Update-Datensatz geprüft.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>lorchupdate</element>
+        <type>plugin</type>
+        <version>1.0.46</version>
+        <change>
+            <item>Reiner Transport- und Migrationstest ohne neue Fachfunktion über den kanonischen Updatepfad unter lorch-webdesign.com/updates.</item>
+            <item>Temporären Übergangsfeed nach abgeschlossener Migration aller verwalteten Websites entfernt.</item>
+        </change>
+    </changelog>
+    <changelog>
+        <element>lorchupdate</element>
+        <type>plugin</type>
+        <version>1.0.45</version>
+        <fix>
+            <item>Updatefeed, Paketdownload und Änderungsprotokoll verwenden jetzt den providerübergreifend funktionierenden Pfad unter lorch-webdesign.com/updates.</item>
+            <item>Bestehende Agent-Updatequellen werden bei der Installation auf die neue kanonische Feed-Adresse migriert.</item>
+            <item>Ein getrennter Übergangsfeed hält Agent-Versionen bis 1.0.44 mit ihrer bisherigen Domain-Freigabe updatefähig.</item>
+        </fix>
+        <change>
+            <item>Das Änderungsprotokoll wird im von Joomla erwarteten XML-Format ausgeliefert.</item>
+        </change>
+    </changelog>
+</changelogs>
