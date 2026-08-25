@@ -1,5 +1,12 @@
 # Lorch Update Center Agent Changelog
 
+## 1.0.48
+
+- Updatefeed, ZIP-Pakete und XML-Änderungsprotokoll werden dauerhaft über den verifizierten statischen GitHub-Pages-Host `https://updates.lorch-webdesign.com/` ausgeliefert.
+- Das Installationsskript migriert die Joomla-Updatequelle nach erfolgreicher Installation auf den neuen kanonischen Feed.
+- Der bisherige Feed unter `https://lorch-webdesign.com/updates/` bleibt ausschließlich als einmaliger Bootstrap-Kanal für bereits installierte Versionen 1.0.47 erreichbar.
+- Agent-Selbstupdates verwenden weiterhin unverändert Joomlas reguläre Erweiterungs-Updateerkennung und das Update-Modell von `com_installer`.
+
 ## 1.0.47
 
 - Agent-Selbstupdates verwenden ausschließlich Joomlas reguläre Erweiterungs-Updateerkennung über `Updater::findUpdates()` und das Update-Modell von `com_installer`.

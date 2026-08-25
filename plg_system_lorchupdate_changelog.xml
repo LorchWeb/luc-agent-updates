@@ -3,6 +3,19 @@
     <changelog>
         <element>lorchupdate</element>
         <type>plugin</type>
+        <version>1.0.48</version>
+        <fix>
+            <item>Updatefeed, ZIP-Pakete und Änderungsprotokoll werden über den verifizierten statischen GitHub-Pages-Host updates.lorch-webdesign.com ausgeliefert.</item>
+            <item>Das Installationsskript migriert die Joomla-Updatequelle auf den neuen kanonischen Feed.</item>
+            <item>Der bisherige Feed bleibt als einmaliger Bootstrap-Kanal für bereits installierte Agent-Versionen 1.0.47 erreichbar.</item>
+        </fix>
+        <change>
+            <item>Joomlas regulärer Erweiterungs-Updater bleibt der einzige Installationspfad für Agent-Selbstupdates.</item>
+        </change>
+    </changelog>
+    <changelog>
+        <element>lorchupdate</element>
+        <type>plugin</type>
         <version>1.0.47</version>
         <fix>
             <item>Agent-Selbstupdates verwenden jetzt Joomlas reguläre Erweiterungs-Updateerkennung und das Update-Modell von com_installer.</item>
