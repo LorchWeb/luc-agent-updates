@@ -1,5 +1,10 @@
 # Lorch Update Center Agent Changelog
 
+## 1.0.49
+
+- Providerübergreifender End-to-End-Test des kanonischen Joomla-Updatewegs über den statischen GitHub-Pages-Host `https://updates.lorch-webdesign.com/`.
+- Keine Änderung an den Fachfunktionen des Agenten gegenüber Version 1.0.48.
+
 ## 1.0.48
 
 - Updatefeed, ZIP-Pakete und XML-Änderungsprotokoll werden dauerhaft über den verifizierten statischen GitHub-Pages-Host `https://updates.lorch-webdesign.com/` ausgeliefert.
