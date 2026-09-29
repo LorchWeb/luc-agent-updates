@@ -1,5 +1,9 @@
 # Lorch Update Center Agent Changelog
 
+## 1.0.50
+
+- Akeeba-Statusabgleich über die bestehende Backup-ID ergänzt, wenn eine Schritt-Antwort verloren geht. Laufende Backups werden fortgesetzt; als erfolgreich gilt nur ein abgeschlossener Akeeba-Eintrag mit vorhandenen Archivdateien.
+
 ## 1.0.49
 
 - Providerübergreifender End-to-End-Test des kanonischen Joomla-Updatewegs über den statischen GitHub-Pages-Host `https://updates.lorch-webdesign.com/`.

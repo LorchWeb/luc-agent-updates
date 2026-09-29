@@ -3,6 +3,15 @@
     <changelog>
         <element>lorchupdate</element>
         <type>plugin</type>
+        <version>1.0.50</version>
+        <fix>
+            <item>Akeeba-Statusabgleich über die bestehende Backup-ID ergänzt, wenn eine Schritt-Antwort verloren geht.</item>
+            <item>Laufende Backups werden fortgesetzt; als erfolgreich gilt nur ein abgeschlossener Akeeba-Eintrag mit vorhandenen Archivdateien.</item>
+        </fix>
+    </changelog>
+    <changelog>
+        <element>lorchupdate</element>
+        <type>plugin</type>
         <version>1.0.49</version>
         <change>
             <item>Providerübergreifender End-to-End-Test des kanonischen Joomla-Updatewegs über den statischen GitHub-Pages-Host updates.lorch-webdesign.com.</item>
