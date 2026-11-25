@@ -1,5 +1,9 @@
 # Lorch Update Center Agent Changelog
 
+## 1.0.51
+
+- Beim Joomla-Paketdownload wird nach Weiterleitungen der Host der Antwort erfasst.
+
 ## 1.0.50
 
 - Akeeba-Statusabgleich über die bestehende Backup-ID ergänzt, wenn eine Schritt-Antwort verloren geht. Laufende Backups werden fortgesetzt; als erfolgreich gilt nur ein abgeschlossener Akeeba-Eintrag mit vorhandenen Archivdateien.

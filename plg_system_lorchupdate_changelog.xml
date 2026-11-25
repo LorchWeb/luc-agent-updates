@@ -3,6 +3,14 @@
     <changelog>
         <element>lorchupdate</element>
         <type>plugin</type>
+        <version>1.0.51</version>
+        <change>
+            <item>Beim Joomla-Paketdownload wird nach Weiterleitungen der Host der Antwort erfasst.</item>
+        </change>
+    </changelog>
+    <changelog>
+        <element>lorchupdate</element>
+        <type>plugin</type>
         <version>1.0.50</version>
         <fix>
             <item>Akeeba-Statusabgleich über die bestehende Backup-ID ergänzt, wenn eine Schritt-Antwort verloren geht.</item>

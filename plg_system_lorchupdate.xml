@@ -3,14 +3,14 @@
     <update>
         <name>System - Lorch Update Center Agent</name>
         <description>Lokaler Agent für Precheck, Backup und kontrollierte Joomla-Core-Patch-Updates.</description>
-        <version>1.0.50</version>
+        <version>1.0.51</version>
         <infourl title="System - Lorch Update Center Agent">https://lorch-webdesign.com/</infourl>
         <downloads>
-            <downloadurl type="full" format="zip">https://updates.lorch-webdesign.com/plg_system_lorchupdate_1.0.50.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://updates.lorch-webdesign.com/plg_system_lorchupdate_1.0.51.zip</downloadurl>
         </downloads>
         <targetplatform name="joomla" version="([5-6]\.\d+)" />
         <php_minimum>8.1</php_minimum>
-        <sha256>21af61e18110e07295218bdd9f96a4dd7f229c12c34ad7fbeab5f6df83eee036</sha256>
+        <sha256>62da4c014c9b3621275aaf272adb5b29fd9bd1f4a14c1cd7616a8f5cc84d1e57</sha256>
         <maintainer>Lorch Webdesign</maintainer>
         <maintainerurl>https://lorch-webdesign.com/</maintainerurl>
         <changelogurl>https://updates.lorch-webdesign.com/plg_system_lorchupdate_changelog.xml</changelogurl>
